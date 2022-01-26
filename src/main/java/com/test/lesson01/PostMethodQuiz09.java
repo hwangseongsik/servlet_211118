@@ -24,5 +24,7 @@ public class PostMethodQuiz09 extends HttpServlet {
 		out.print("<b>" + name + "</b>님 지원이 완료 되었습니다.");
 		out.print("<h3>지원내용</h3>" + selfIntroduction);
 		out.print("</body></html>");
+		
+		// 이슈 테스트를 위한 주석 추가
 	}
 }
